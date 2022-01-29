@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Navbar Başlangıç Alanı*/
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 60px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 240px;
+  height: 48px;
+  margin-top: 7px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  padding-right: 20px;
+}
+
+.sing_in {
+  border-radius: 50px;
+}
+
+.navbar a {
+  color: #373737;
+  font-size: 13px;
+  line-height: 24px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+/*Navbar Bitiş Alanı*/
+/*Google Logo Başlangıç Alanı*/
+.middle_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+  height: 95px;
+}
+.google_logo {
+  display: flex;
+  width: 272px;
+  height: 92px;
+}
+
+/*Google Logo Bitiş Alanı*/
+/*Orta Alan Başlangıç */
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+  height: 90px;
+}
+
+.search_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  width: 594px;
+  height: 46px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+.search_wrapper:hover {
+  background-color: #ffff;
+}
+
+.button_search {
+  display: flex;
+  width: 500px;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  padding: 10px 10px;
+  font-size: 16px;
+}
+.fa-search {
+  color: #9aa0a6;
+}
+
+.fa-keyboard {
+  color: #9aa0a6;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin: 5px;
+}
+.google_search {
+  width: 120px;
+  height: 30px;
+  margin-right: 15px;
+}
+.button1 {
+  background-color: #f8f9fa;
+  width: 120px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+.feeling_lucky {
+  width: 120px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.button2 {
+  background-color: #f8f9fa;
+  width: 120px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+.langue {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.langue span {
+  color: #3c4043;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+.langue a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  color: #1a0dab;
+}
+/*Orta Alan Bitiş */
+/*Footer Başlangıç Alanı*/
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0px;
+}
+.footer1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border: 1px solid lightgrey;
+}
+
+.footer1 p {
+  color: #70757a;
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  color: #70757a;
+  margin-left: 25px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer2 ul {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.footer2 li {
+  padding: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: #70757a;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Footer Bitiş Alanı*/
