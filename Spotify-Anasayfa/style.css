@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Menü Alanı Başlangıç*/
+.menu_wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.menu {
+  position: relative;
+  width: 1170px;
+  height: 75px;
+  margin-right: 171px;
+  line-height: 40px;
+}
+
+.spotify_logo {
+  position: absolute;
+  top: 18px;
+  bottom: 18px;
+  width: 190px;
+  height: 75px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+.menu ul li {
+  padding: 18px 18px;
+  color: #fff;
+}
+
+.menu ul a {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #1ed760;
+}
+
+.logo {
+  width: 133px;
+  height: 41px;
+  cursor: pointer;
+}
+
+/*Menü Alanı Bitiş*/
+
+/*Banner Alanı Başlangıç*/
+.banner_wrapper {
+  width: 100%;
+  min-height: 855px;
+  background-image: url(images/banner_bg.jpg);
+  text-align: center;
+}
+
+.banner_wrapper h1 {
+  font-weight: bold;
+  font-size: 156px;
+  color: #1ed760;
+  padding-top: 100px;
+  line-height: 166px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.banner_wrapper p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #1ed760;
+  padding-top: 38px;
+}
+
+.banner_wrapper a {
+  display: inline-block;
+  background-color: #1ed760;
+  width: auto;
+  padding: 18px 26px;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #2d45ba;
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 58px;
+}
+
+.banner_wrapper a:hover {
+  background-color: #ffffff;
+}
+
+/*Banner Alanı Bitiş*/
+
+/*Footer Alanı Başlangıç*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 560px;
+  background-color: #000;
+  position: relative;
+}
+
+.footer_menu {
+  display: flex;
+  width: 1300px;
+  height: 320px;
+  position: absolute;
+  top: 60px;
+  left: 160px;
+  position: relative;
+}
+
+.footer_logo {
+  padding-top: 20px;
+  float: left;
+  padding-right: 65px;
+}
+
+.logo2 {
+  width: 133px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.footer_menu .menu1 {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.footer_menu .menu1 ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.footer_menu .menu1 a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.footer_menu .menu1 span {
+  font-size: 16px;
+  color: #919496;
+}
+.footer_menu .menu2 {
+  display: inline-block;
+  padding-left: 120px;
+}
+
+.footer_menu .menu2 ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.footer_menu .menu2 a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.footer_menu .menu2 span {
+  font-size: 16px;
+  color: #919496;
+}
+.footer_menu .menu3 {
+  display: inline-block;
+  padding-left: 120px;
+}
+
+.footer_menu .menu3 ul {
+  margin-top: 30px;
+  list-style: none;
+}
+.footer_menu .menu3 ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.footer_menu .menu3 a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.footer_menu .menu3 span {
+  font-size: 16px;
+  color: #919496;
+}
+
+.footer_menu .menu4 {
+  padding-left: 165px;
+}
+
+.footer_menu .menu4 ul {
+  margin-top: 30px;
+  list-style: none;
+}
+.footer_menu .menu4 ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.footer_menu .menu4 a {
+  font-size: 26px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.lower_wrapper {
+  width: 1300px;
+  height: 175px;
+}
+
+.lower_wrapper {
+  position: absolute;
+  top: 380px;
+  left: 160px;
+}
+
+.country {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+
+.country span {
+  font-size: 12px;
+  color: #919496;
+  font-family: "Poppins", sans-serif;
+}
+
+.lower_menu ul {
+  list-style: none;
+}
+
+.lower_wrapper ul li {
+  display: inline;
+  float: left;
+  padding-right: 15px;
+}
+.lower_wrapper ul li a {
+  text-decoration: none;
+  color: #919496;
+  font-size: 16px;
+}
+
+.lower_wrapper p {
+  float: right;
+  padding-right: 100px;
+  color: #919496;
+  font-size: 16px;
+}
+
+.footer_menu a:hover {
+  color: #1ed760;
+}
+
+.lower_menu a:hover {
+  color: #1ed760;
+}
+
+/*Footer Alanı Bitiş*/
